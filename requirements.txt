@@ -1,0 +1,12 @@
+websockets
+pandas
+sympy
+tkintermapview
+
+#custom modules
+zkp_auth
+key_loader
+encryption
+decryption
+digital_signature
+quantum_generator

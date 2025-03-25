@@ -1,0 +1,101 @@
+Sequence,SHA-256 Hash
+"""rsa, aes""",9fe128fb3022a7edcf9c58613ad7e181fa1dd723f6f5279d22c215f99ebb7fee
+"""rsa, des""",f0abfb0cf5ef309c841cd7912ad68eb54505686e2b6da7314c6de5a93dfb38cd
+"""rsa, tdes""",266b33ee06dac2a032bbe6752cd043985d91392098a95b0ff88bbbd19ed475d4
+"""rsa, aes-gcm""",4afd4db20d6944c05b14d13316c56041923287c4f5f67c893d5ec75dd3e85490
+"""rsa, ecc""",102e026fe30bb99d987ba97f932bfedd9a49f4cb68fa3fbe6b54975c4edfbbe5
+"""rsa, aes, des""",8989968dd58c487786af83e089c0443cb2e15a968ba2a4edd368795f77ebbcc6
+"""rsa, aes, tdes""",d9f1c6d9c3d54a54cfaef8149856493deee42337e1db29dd3d491895cff70784
+"""rsa, aes, aes-gcm""",c35862f97363741ed3f9ae07b422f696af01f6ec2d0d91653d6b193806245e51
+"""rsa, aes, ecc""",464245b296d58017944cdc3cbb32568af73b9790e3fea464a736e146f0b66ba5
+"""rsa, des, aes""",536b869d1276462740548f57794d68edbde5169ae07d972fd14c3e1dfd034611
+"""rsa, des, tdes""",e5262ea8b9f0227aa2014b5c6501bb3d63b6d8feabb0ac212a7912ebd89e70c1
+"""rsa, des, aes-gcm""",26b4a45bffb90de2b494f21a48b80ff6a25189978294e2e53bb46437cc97326e
+"""rsa, des, ecc""",88fe299768377a2aeeabb8e2786f9f66b83020aaab584a76dda4439d724f3b90
+"""rsa, tdes, aes""",a15071c9b677798014af770cba96356c2e5cc22f6884dbec2e30454fbe6b591c
+"""rsa, tdes, des""",f080d615f8aa40d157e717ba790c2fe14fbfec6c03790789ae8ad78d1d5d6226
+"""rsa, tdes, aes-gcm""",84e333ac30d5dadb7d9932e4c311ffc435237d6a35575a65a8a254873691812a
+"""rsa, tdes, ecc""",2a59e936f351f96d36655d61baf64871a9f3f326964eb4cc913c215c05c3dae4
+"""rsa, aes-gcm, aes""",b87dd57864920ed97c0d4b5f6ceb9aa76f9ac5dbf378b3b07f8bcdea38dceb28
+"""rsa, aes-gcm, des""",7fed9dbe3736473843b4db01572e1869bef196146e5e0b19a92efa9762c0be08
+"""rsa, aes-gcm, tdes""",8f6859d86634100f7b06c2d5c45d096db00475132c37aacd32977700b1e2eeb0
+"""rsa, aes-gcm, ecc""",4f4420bea84a4d924501feb449eacae08f2e4181a68b8ae115c27a812a0fcc5e
+"""rsa, ecc, aes""",ed5e5fc5ec2ffefff9c8a1483afd31dc42e330ecc81dd0acaad5e7aa2237b34b
+"""rsa, ecc, des""",d391e0ab39b073894dfee25999c31bb126ca09f0300f794d3af61acc8f86b481
+"""rsa, ecc, tdes""",b0ecab6974bfdff7102b78e525f2f22740b5926d229051cbbd54eb41aed3b018
+"""rsa, ecc, aes-gcm""",8bbaec3f5994dbc4149844b2a144135f8429a00637b94e6992809bbfc8f4569e
+"""rsa, aes, des, tdes""",603e1409b989288381509c1641a647c5321d305008db5332bd64a07e599a0d18
+"""rsa, aes, des, aes-gcm""",5c5dc08f50f71121632d145feefd177ffa771fd8b1b08dd8a52041deb0833d1c
+"""rsa, aes, des, ecc""",0f7e552d19dc365b68d7a6c7b81677253e675cf36edf7691123bd23e69d88c48
+"""rsa, aes, tdes, des""",9f0c7062f6e36990f67cbc5dab5f2e06da9b9cf33d6e3862d1f8f27cc379a966
+"""rsa, aes, tdes, aes-gcm""",4f8417357a56ab74a96022122d759f1e0a689d9a09ab7880789c0100ffc7d4d4
+"""rsa, aes, tdes, ecc""",c4f50546b87fe631e56120f6b00a7a90ac7fbf37e8c80f82a3426d4859944f4a
+"""rsa, aes, aes-gcm, des""",726d03b3ec6c58be796bb56f463cff16595f188a0c14288d108d2622fd677fd4
+"""rsa, aes, aes-gcm, tdes""",24091134375fc66764b4008458cfe59daebab00054ca1eae651af9bd29d6c8ad
+"""rsa, aes, aes-gcm, ecc""",de3fc0187380078d0dff090e4c3f55be1f35b7479a696290d9b3eb60222f7655
+"""rsa, aes, ecc, des""",85a0cc5b9ffecd597ed00cf3cf2ff885daddff5c40083c1bf471e96c8adeb115
+"""rsa, aes, ecc, tdes""",08c2f87bc91f18f17863521b3d232e783c9c798e9445564171da5c9024b54730
+"""rsa, aes, ecc, aes-gcm""",e9fa0be1e1a196b803caa0ecd9322f0a65067f6cfba08027e0da2a9c6fb81d43
+"""rsa, des, aes, tdes""",fe31614e6613a7212798f3aa01970a75005a8869152dc8ea9509d46511dd1215
+"""rsa, des, aes, aes-gcm""",daa1c0c82385081d012ad696a5fa7ba114ca08268dd706d67d7209ca13a3672a
+"""rsa, des, aes, ecc""",36b72a02d80a99083a78913d96d5abfb9b679a40d7f953d63782add3797af3e2
+"""rsa, des, tdes, aes""",32d990b992e4fd074a29321d664aab3f40b6165a3116f7d42f4d5a33f3bcc7b0
+"""rsa, des, tdes, aes-gcm""",31394120e35e9579c8950752a15a1e590009ff25f63d734b529651896635e578
+"""rsa, des, tdes, ecc""",7eb4d8f9075cea15fd4cfa6ffa236355768b1e433e1e1ee3d8c3a5e83e618f28
+"""rsa, des, aes-gcm, aes""",fac3d0da632f8c50ef9efc16188416b2a46b2e5b9ba63aeeb563b551b52f7222
+"""rsa, des, aes-gcm, tdes""",2d7919b4dacc2505da3e5e5e478c21c87904ea1050a974c92bbe7db0dc9abeba
+"""rsa, des, aes-gcm, ecc""",bce09046f5e2017a3f17647bbe8d8ff029c9b761b065524b3090067196c03118
+"""rsa, des, ecc, aes""",d163cf42e201e867a5e549bcffbda26804abdc2bfb57ee5aa907aef3b98cc165
+"""rsa, des, ecc, tdes""",a8e994f41c4ca787b01532a913bab169183e5edc28206c2eee2a465f988b00a4
+"""rsa, des, ecc, aes-gcm""",cec85c51f7b5e7fa949eb81438fca6132829ca5315181fc92e43298cb5325fc9
+"""rsa, tdes, aes, des""",7e0a315007fcf24ce748dfd0cb4b040071e1ea5418e60945e36e0f0c4e2856e1
+"""rsa, tdes, aes, aes-gcm""",b1ad8f91f20a7ab5cbb71be9917b03e88a3887acd427ef8361891dd2fa4d428d
+"""rsa, tdes, aes, ecc""",2ae6602381cf6d5acd52fb23a432311e1cd0a127f944a47dafefa4c80f0e723b
+"""rsa, tdes, des, aes""",e0757044af9514764dda6879cddd032e868cd74ba8b2467c213e8860afd81a7b
+"""rsa, tdes, des, aes-gcm""",12a48d03ba18129705bd5fdf503af8e88987723e4cf70aee34beae65c413dc87
+"""rsa, tdes, des, ecc""",e2cb7ddf5ba8a2cbd31f04fb0b5cbc5a73f71e2a050da7530c7ea52b7a71a9ad
+"""rsa, tdes, aes-gcm, aes""",db5db1eff10b88379476a6056dea92fd4b89b0050033c472a03acfced4b0426e
+"""rsa, tdes, aes-gcm, des""",0ef4cc92ec0b66ea7625a4540d6377102437ec5b0d2e4ce5918a58f7117d9181
+"""rsa, tdes, aes-gcm, ecc""",5abc88a2b71e38202619f5844ffe65a3180318ce587ecf0818d379a4de31e5d0
+"""rsa, tdes, ecc, aes""",b2631816a1ca8297bf56922dc4448f84cb8d4df01adc90fa6b1a8aabef2e81eb
+"""rsa, tdes, ecc, des""",6e8fa155554f77571b3f1600d8d7d17d6a9ef4b0efc50d516b04deefb098fb64
+"""rsa, tdes, ecc, aes-gcm""",08c9cc4a104918ac2f87d4f69346a25232944fc55d9893c63246359f91046dc6
+"""rsa, aes-gcm, aes, des""",45112f100bb8c728a5f6f5674efbb152ae6f8d18c798142a3cf8c5b21330845e
+"""rsa, aes-gcm, aes, tdes""",c20519711a144ad69811df31260e3d8b944faf6a10a2a5fb1532f5b92ed64fdf
+"""rsa, aes-gcm, aes, ecc""",f5834c927b09a0205d0d72e44b5bfc80152ee177e1636a56540c85900c2f432c
+"""rsa, aes-gcm, des, aes""",2a1383ca0ef9e13f1a86f516c0f766275cb95299ec1ef1f44a0b34c220bf233a
+"""rsa, aes-gcm, des, tdes""",3c7cab713286b4f012bd329d30b79401afc3f850009d7b619dc42734301038c4
+"""rsa, aes-gcm, des, ecc""",685dc46c4f30e0f6e0988483a19ba978d7e79bde06fba84b085ea9309a0b3ba3
+"""rsa, aes-gcm, tdes, aes""",11edce39ef86f36edf3d13bac16cc7ec0e8a6ce0d3bdec4d066f2ea26dc99a95
+"""rsa, aes-gcm, tdes, des""",96cf835768d65ae13bb6a8f025f7879de27d8f1bb9477e4baf9e0bb34bb028fa
+"""rsa, aes-gcm, tdes, ecc""",dfbbb5e4de8b6396f42da8c6a4d1c2a4cd0f72e9af9d290551e6b858ecd1ec22
+"""rsa, aes-gcm, ecc, aes""",18f6405f732222269f9038f2acbb281346b0100b9f159d865a40c38d2454e5b9
+"""rsa, aes-gcm, ecc, des""",2019a539f2f3837dd44b334a1e85f31313259b15d440f4ed4a742a2a70044ee6
+"""rsa, aes-gcm, ecc, tdes""",a34c76baf019cce4dc8df89ecde52e838915628b17773f1c6b960e841d16adae
+"""rsa, ecc, aes, des""",9b11202031e9de8bad93d99eab76754627de5edfac9129a5f368ca399954f638
+"""rsa, ecc, aes, tdes""",ab31ea1377ca0e86de7a8ef7782e0642a20bbccffdbb0a68f11360641915c475
+"""rsa, ecc, aes, aes-gcm""",0b1430542ce11b75e81db3aa60130824b3f590831e2700d749708087621858ab
+"""rsa, ecc, des, aes""",0fdea7bed26c4fc8c9fd4de04f56c3d929d77c3c435f4e54f39823b600c902a6
+"""rsa, ecc, des, tdes""",7b099e04d1720522f570185a50e140544c14552097c5395153c640d8680f691a
+"""rsa, ecc, des, aes-gcm""",00a422a13e69079157955b8abbfcbed2d755ecd40384734d74c4a78f04d8c00f
+"""rsa, ecc, tdes, aes""",778826ec2784a07479b736ed340439de5f46da183c77a2fdf9646fd318406a30
+"""rsa, ecc, tdes, des""",a9e7ccdaf2a267e4e828f4f0c99772d65b43865c49accee0e85ce17e476129a7
+"""rsa, ecc, tdes, aes-gcm""",0979fb84845bb7770ccc51e4dd88431ffb659aeec0764acba82f6db26e5afa1f
+"""rsa, ecc, aes-gcm, aes""",d156d538fabafbc63005e1b71cdb88d8faf374b39dd227cada98f390d7152909
+"""rsa, ecc, aes-gcm, des""",adc7c5a938da86f1930cd3fdb45eee78452b3f8346891f1f0b8690c0b1fe4b73
+"""rsa, ecc, aes-gcm, tdes""",71be61495f076aff9ad14592d76c2aa64bd5cd807699c982adad14ec4a652b80
+"""rsa, aes, des, tdes, aes-gcm""",d3e9e611d15d025d17b6593774f1d339c3e5e1912084d64fcef64cf3c1bbe3cf
+"""rsa, aes, des, tdes, ecc""",7cfdc267ced4591eb3e8378290dab7e63cbba0f51d460258f9a93d6ad8a68c58
+"""rsa, aes, des, aes-gcm, tdes""",bf221c1f6b63cfcfe38b4e1a97d53632ef791aaa4a0d327f3ad5f7a6e14c7b7a
+"""rsa, aes, des, aes-gcm, ecc""",ed94d76295f3950aec48c630e25d2f36adcfd75c483a3e86dd7af9b3c8022ccf
+"""rsa, aes, des, ecc, tdes""",4cbd60c667b0eb3fa4e11eb9e2f3f383048a363cfa4dea9489923b745b02200b
+"""rsa, aes, des, ecc, aes-gcm""",5e40cb166f7b165f4fddb2fa6782fd16b82e50014f88624676859991b020ff78
+"""rsa, aes, tdes, des, aes-gcm""",cc15bbd648035feb4804874cd7bda8960e3aac98cf1a3d46b81eb37a4ad17828
+"""rsa, aes, tdes, des, ecc""",280ce4dcae44df6610f8ff1b145bc079e26a350cd36f72fa5c4aa682ae8e5373
+"""rsa, aes, tdes, aes-gcm, des""",37e33af51f1efa052e1c3d2313843456fc7981f2506668f62ffbf283936eb3b9
+"""rsa, aes, tdes, aes-gcm, ecc""",cbb2a947b9ea4125c4e820648360fb3a3fc8a105aa5e2ada01dd1efefae140c8
+"""rsa, aes, tdes, ecc, des""",ab0fe2e3b897c6a8abf4421a6a145cdab3fca95fece336c1389a963a46cc9d25
+"""rsa, aes, tdes, ecc, aes-gcm""",2834d2fec8090e5b9289aaa9a2e6dd86ccb4431ca042d61f4207a92311565344
+"""rsa, aes, aes-gcm, des, tdes""",f2c7439dcf925065d32c089af84c13ed242f631cd633fa74d7b184bb5cb1163b
+"""rsa, aes, aes-gcm, des, ecc""",446d745ad32e62326312e5de852c2c4284e7128b2c3cabc8281d77a5e0c2ecea
+"""rsa, aes, aes-gcm, tdes, des""",7e01765b5f2a5a31cb76b99c6a149ef247cd02bf8b7b1335829667f7417fe6b4

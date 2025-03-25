@@ -1,0 +1,417 @@
+2025-03-25 11:22:33,968 - INFO - Cryptography initialized successfully
+2025-03-25 11:22:33,984 - INFO - Connected to server successfully
+2025-03-25 11:22:33,992 - INFO - Location update interval changed to 5s
+2025-03-25 11:22:34,008 - INFO - Received from server: Enter Tank ID:
+2025-03-25 11:22:39,058 - INFO - Location sent successfully
+2025-03-25 11:22:39,090 - INFO - Received from server: Challenge: 7 16
+2025-03-25 11:22:39,090 - ERROR - Error handling message: 'TankClientGUI' object has no attribute 'handle_challenge'
+2025-03-25 11:22:39,178 - INFO - Received from server: Authentication Failed
+2025-03-25 11:22:44,193 - INFO - Location sent successfully
+2025-03-25 11:22:44,193 - ERROR - Error receiving message: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-03-25 11:23:26,326 - INFO - Location update interval changed to 30s
+2025-03-25 11:23:31,646 - INFO - Location update interval changed to 5s
+2025-03-25 11:24:18,063 - INFO - Cryptography initialized successfully
+2025-03-25 11:24:18,095 - INFO - Connected to server successfully
+2025-03-25 11:24:18,103 - INFO - Location update interval changed to 5s
+2025-03-25 11:24:18,111 - INFO - Received from server: Enter Tank ID:
+2025-03-25 11:24:23,178 - INFO - Location sent successfully
+2025-03-25 11:24:23,210 - INFO - Received from server: Challenge: 4 20
+2025-03-25 11:24:23,218 - ERROR - Error handling message: 'TankClientGUI' object has no attribute 'handle_challenge'
+2025-03-25 11:24:23,290 - INFO - Received from server: Authentication Failed
+2025-03-25 11:24:28,329 - INFO - Location sent successfully
+2025-03-25 11:24:28,329 - ERROR - Error receiving message: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-03-25 11:52:32,949 - INFO - Cryptography initialized successfully
+2025-03-25 11:52:32,965 - INFO - Connected to server successfully
+2025-03-25 11:52:32,981 - INFO - Location update interval changed to 5s
+2025-03-25 11:52:32,989 - INFO - Received from server: Enter Tank ID:
+2025-03-25 11:52:38,013 - INFO - Location sent successfully
+2025-03-25 11:52:38,029 - INFO - Received from server: Challenge: 5 12
+2025-03-25 11:52:38,037 - ERROR - Error handling message: 'TankClientGUI' object has no attribute 'handle_challenge'
+2025-03-25 11:52:38,125 - INFO - Received from server: Authentication Failed
+2025-03-25 11:52:43,124 - INFO - Location sent successfully
+2025-03-25 11:52:43,124 - ERROR - Error receiving message: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-03-25 12:15:11,217 - INFO - Cryptography initialized successfully
+2025-03-25 12:15:11,225 - INFO - Connected to server successfully
+2025-03-25 12:15:11,249 - INFO - Challenge response sent
+2025-03-25 12:15:11,273 - INFO - Received from server: Authentication SuccessfulAre you ready?
+2025-03-25 12:20:38,999 - INFO - Cryptography initialized successfully
+2025-03-25 12:20:39,015 - INFO - Connected to server successfully
+2025-03-25 12:20:39,063 - INFO - Challenge response sent
+2025-03-25 12:20:39,135 - INFO - Received from server: Authentication SuccessfulAre you ready?
+2025-03-25 12:20:48,647 - INFO - Location update interval changed to 30s
+2025-03-25 12:20:49,104 - INFO - Location update interval changed to 1m
+2025-03-25 12:20:49,528 - INFO - Location update interval changed to 10m
+2025-03-25 12:20:49,959 - INFO - Location update interval changed to 30m
+2025-03-25 12:20:50,391 - INFO - Location update interval changed to 1h
+2025-03-25 12:40:40,469 - ERROR - Error receiving message: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-25 12:45:10,216 - INFO - Cryptography initialized successfully
+2025-03-25 12:45:10,224 - INFO - Connected to server successfully
+2025-03-25 12:45:10,264 - INFO - Challenge response sent
+2025-03-25 12:45:10,296 - INFO - Received from server: Authentication SuccessfulAre you ready?
+2025-03-25 12:45:35,719 - INFO - Cryptography initialized successfully
+2025-03-25 12:45:35,727 - INFO - Connected to server successfully
+2025-03-25 12:45:35,775 - INFO - Challenge response sent
+2025-03-25 12:45:35,791 - INFO - Received from server: Authentication SuccessfulAre you ready?
+2025-03-25 12:46:39,571 - INFO - Location update interval changed to 30s
+2025-03-25 12:47:09,672 - INFO - Location sent successfully
+2025-03-25 12:47:09,672 - ERROR - Error receiving message: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-25 12:58:19,968 - INFO - Cryptography initialized successfully
+2025-03-25 12:58:19,976 - INFO - Connected to server successfully
+2025-03-25 12:58:19,992 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 12:58:20,008 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 12:58:20,104 - INFO - Challenge response sent
+2025-03-25 12:58:25,024 - INFO - Connected to server successfully
+2025-03-25 12:58:25,024 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 12:58:25,031 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 12:58:30,039 - INFO - Connected to server successfully
+2025-03-25 12:58:30,039 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 12:58:30,047 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 12:58:30,047 - INFO - Challenge response sent
+2025-03-25 12:58:35,055 - INFO - Connected to server successfully
+2025-03-25 12:58:35,063 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 12:58:35,063 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 12:58:40,078 - INFO - Connected to server successfully
+2025-03-25 12:58:40,086 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 12:58:40,086 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 12:58:45,094 - INFO - Connected to server successfully
+2025-03-25 12:58:45,094 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 12:58:45,102 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 12:58:50,109 - INFO - Connected to server successfully
+2025-03-25 12:58:50,109 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 12:58:50,117 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 12:58:57,157 - ERROR - Connection error: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 12:58:57,157 - INFO - Attempting to reconnect (attempt 2/5)
+2025-03-25 12:59:04,212 - ERROR - Connection error: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 12:59:04,212 - INFO - Attempting to reconnect (attempt 3/5)
+2025-03-25 12:59:11,243 - ERROR - Connection error: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 12:59:11,251 - INFO - Attempting to reconnect (attempt 4/5)
+2025-03-25 12:59:18,307 - ERROR - Connection error: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 12:59:18,323 - INFO - Attempting to reconnect (attempt 5/5)
+2025-03-25 12:59:25,363 - ERROR - Connection error: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 12:59:25,371 - ERROR - Max reconnection attempts reached
+2025-03-25 13:03:20,231 - INFO - Cryptography initialized successfully
+2025-03-25 13:03:20,239 - INFO - Connected to server successfully
+2025-03-25 13:03:20,255 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 13:03:20,263 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 13:03:20,375 - INFO - Challenge response sent
+2025-03-25 13:03:25,286 - INFO - Connected to server successfully
+2025-03-25 13:03:25,286 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 13:03:25,294 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 13:03:30,302 - INFO - Connected to server successfully
+2025-03-25 13:03:30,310 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 13:03:30,310 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 13:03:30,310 - INFO - Challenge response sent
+2025-03-25 13:03:35,318 - INFO - Connected to server successfully
+2025-03-25 13:03:35,318 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 13:03:35,325 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 13:03:40,333 - INFO - Connected to server successfully
+2025-03-25 13:03:40,333 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 13:03:40,341 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 13:03:45,357 - INFO - Connected to server successfully
+2025-03-25 13:03:45,357 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 13:03:45,365 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 13:03:50,388 - INFO - Connected to server successfully
+2025-03-25 13:03:50,388 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 13:03:50,396 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 13:03:55,404 - INFO - Connected to server successfully
+2025-03-25 13:03:55,404 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 13:03:55,412 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 13:07:31,566 - INFO - Cryptography initialized successfully
+2025-03-25 13:07:31,574 - INFO - Connected to server successfully
+2025-03-25 13:07:31,590 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 13:07:31,598 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 13:07:31,702 - INFO - Challenge response sent
+2025-03-25 13:07:36,597 - INFO - Connected to server successfully
+2025-03-25 13:07:36,605 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 13:07:36,605 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 13:07:41,621 - INFO - Connected to server successfully
+2025-03-25 13:07:41,629 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 13:07:41,629 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 13:07:46,645 - INFO - Connected to server successfully
+2025-03-25 13:07:46,645 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 13:07:46,652 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 13:07:46,652 - INFO - Challenge response sent
+2025-03-25 13:07:51,660 - INFO - Connected to server successfully
+2025-03-25 13:07:51,668 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 13:07:51,668 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 13:07:51,692 - INFO - Challenge response sent
+2025-03-25 13:07:56,700 - INFO - Connected to server successfully
+2025-03-25 13:07:56,700 - INFO - Connection alive but not authenticated, reconnecting...
+2025-03-25 13:07:56,708 - INFO - Attempting to reconnect (attempt 1/5)
+2025-03-25 13:08:03,739 - ERROR - Connection error: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:08:03,739 - INFO - Attempting to reconnect (attempt 2/5)
+2025-03-25 13:08:10,762 - ERROR - Connection error: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:08:10,762 - INFO - Attempting to reconnect (attempt 3/5)
+2025-03-25 13:08:17,819 - ERROR - Connection error: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:08:17,819 - INFO - Attempting to reconnect (attempt 4/5)
+2025-03-25 13:08:24,874 - ERROR - Connection error: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:08:24,882 - INFO - Attempting to reconnect (attempt 5/5)
+2025-03-25 13:08:31,913 - ERROR - Connection error: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:08:31,921 - ERROR - Max reconnection attempts reached
+2025-03-25 13:10:14,378 - INFO - Cryptography initialized successfully
+2025-03-25 13:10:14,386 - INFO - Connected to server
+2025-03-25 13:10:14,442 - INFO - Received: Challenge: 5 79
+2025-03-25 13:10:14,458 - INFO - Challenge response sent
+2025-03-25 13:10:14,474 - INFO - Received: Authentication SuccessfulGive me your location
+2025-03-25 13:10:24,481 - ERROR - Connection error: timed out
+2025-03-25 13:10:29,409 - INFO - Connected to server
+2025-03-25 13:10:29,433 - INFO - Received: Challenge: 0 22
+2025-03-25 13:10:29,441 - INFO - Challenge response sent
+2025-03-25 13:10:29,449 - INFO - Received: Authentication SuccessfulGive me your location
+2025-03-25 13:10:39,472 - ERROR - Connection error: timed out
+2025-03-25 13:10:44,423 - INFO - Connected to server
+2025-03-25 13:10:44,447 - INFO - Received: Challenge: 5 22
+2025-03-25 13:10:44,455 - INFO - Challenge response sent
+2025-03-25 13:10:44,455 - INFO - Received: Authentication SuccessfulGive me your location
+2025-03-25 13:10:51,919 - ERROR - Connection error: Connection lost
+2025-03-25 13:10:56,486 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:10:58,958 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:11:03,526 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:11:10,565 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:11:17,606 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:11:24,653 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:11:31,716 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:11:38,772 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:11:45,827 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:11:52,890 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:11:59,930 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:12:06,977 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:12:14,032 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:12:21,089 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:12:28,129 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:12:35,176 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:12:42,231 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:12:49,287 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:12:56,342 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:13:03,381 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:13:10,461 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:13:17,533 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:13:24,589 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:13:31,660 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:13:38,699 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:13:45,771 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:13:52,810 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:13:59,849 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:14:06,921 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:14:13,976 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:14:21,025 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:14:28,056 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:14:35,096 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:14:42,143 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:14:49,182 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:14:56,222 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:15:03,261 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:15:10,300 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:15:17,349 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:15:24,388 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:15:31,428 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:15:38,472 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:15:45,535 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:15:52,582 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:15:59,638 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:16:06,701 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:16:13,748 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:16:20,820 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:16:27,875 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:16:34,930 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:16:41,987 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:16:49,050 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:16:56,113 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:17:03,177 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:17:10,240 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:17:17,271 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:17:24,311 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:17:31,366 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:17:38,415 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:17:45,454 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:17:52,509 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:17:59,573 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:18:06,612 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:18:13,660 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:18:20,715 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:18:27,754 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:18:34,818 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:18:41,874 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:18:48,930 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:18:55,985 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:19:03,032 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:19:10,080 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:19:17,119 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:19:24,190 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:19:31,246 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:19:38,286 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:19:45,341 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:19:52,381 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:19:59,452 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:20:06,507 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:20:13,579 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:20:20,650 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:20:27,722 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:20:34,769 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:20:41,809 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:20:48,864 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:20:55,896 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:21:02,919 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:21:09,967 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:21:17,006 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:21:24,045 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:21:31,085 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:21:38,157 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:21:45,196 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:21:52,240 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:21:59,287 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:22:04,311 - INFO - Connected to server
+2025-03-25 13:22:04,335 - INFO - Received: Challenge: 9 64
+2025-03-25 13:22:04,351 - INFO - Challenge response sent
+2025-03-25 13:22:04,359 - INFO - Received: Authentication SuccessfulGive me your location
+2025-03-25 13:22:14,374 - ERROR - Connection error: timed out
+2025-03-25 13:22:19,358 - INFO - Connected to server
+2025-03-25 13:22:19,382 - INFO - Received: Challenge: 2 15
+2025-03-25 13:22:19,398 - INFO - Challenge response sent
+2025-03-25 13:22:19,414 - INFO - Received: Authentication SuccessfulGive me your location
+2025-03-25 13:22:29,421 - ERROR - Connection error: timed out
+2025-03-25 13:22:34,388 - INFO - Connected to server
+2025-03-25 13:22:34,500 - INFO - Received: Challenge: 9 9
+2025-03-25 13:22:34,540 - INFO - Challenge response sent
+2025-03-25 13:22:34,564 - INFO - Received: Authentication SuccessfulGive me your location
+2025-03-25 13:22:44,579 - ERROR - Connection error: timed out
+2025-03-25 13:22:49,459 - INFO - Connected to server
+2025-03-25 13:22:49,491 - INFO - Received: Challenge: 8 21
+2025-03-25 13:22:49,507 - INFO - Challenge response sent
+2025-03-25 13:22:49,515 - INFO - Received: Authentication Successful
+2025-03-25 13:22:49,523 - INFO - Authentication successful
+2025-03-25 13:22:49,531 - INFO - Received: Give me your location
+2025-03-25 13:22:49,587 - INFO - Location sent
+2025-03-25 13:22:50,723 - INFO - Received: Give me your location
+2025-03-25 13:22:50,787 - INFO - Location sent
+2025-03-25 13:22:52,037 - INFO - Received: Give me your location
+2025-03-25 13:22:52,109 - INFO - Location sent
+2025-03-25 13:22:53,237 - INFO - Received: Give me your location
+2025-03-25 13:22:53,333 - INFO - Location sent
+2025-03-25 13:22:54,477 - INFO - Received: Give me your location
+2025-03-25 13:22:54,509 - INFO - Location sent
+2025-03-25 13:22:55,629 - INFO - Received: Give me your location
+2025-03-25 13:22:55,709 - INFO - Location sent
+2025-03-25 13:22:56,829 - INFO - Received: Give me your location
+2025-03-25 13:22:56,908 - INFO - Location sent
+2025-03-25 13:22:58,052 - INFO - Received: Give me your location
+2025-03-25 13:22:58,132 - INFO - Location sent
+2025-03-25 13:22:59,260 - INFO - Received: Give me your location
+2025-03-25 13:22:59,340 - INFO - Location sent
+2025-03-25 13:23:00,484 - INFO - Received: Give me your location
+2025-03-25 13:23:00,612 - INFO - Location sent
+2025-03-25 13:23:01,780 - INFO - Received: Give me your location
+2025-03-25 13:23:01,828 - INFO - Location sent
+2025-03-25 13:23:01,900 - ERROR - Error sending location: list index out of range
+2025-03-25 13:23:02,972 - INFO - Received: Give me your location
+2025-03-25 13:23:03,060 - INFO - Location sent
+2025-03-25 13:23:03,988 - INFO - Location update interval changed to 30s
+2025-03-25 13:23:04,196 - INFO - Received: Give me your location
+2025-03-25 13:23:04,276 - INFO - Location sent
+2025-03-25 13:23:05,420 - INFO - Received: Give me your location
+2025-03-25 13:23:05,492 - INFO - Location sent
+2025-03-25 13:23:06,612 - INFO - Received: Give me your location
+2025-03-25 13:23:06,644 - INFO - Location sent
+2025-03-25 13:23:07,811 - INFO - Received: Give me your location
+2025-03-25 13:23:07,891 - INFO - Location sent
+2025-03-25 13:23:09,043 - INFO - Received: Give me your location
+2025-03-25 13:23:09,099 - INFO - Location sent
+2025-03-25 13:23:10,235 - INFO - Received: Give me your location
+2025-03-25 13:23:10,339 - INFO - Location sent
+2025-03-25 13:23:11,491 - INFO - Received: Give me your location
+2025-03-25 13:23:11,595 - INFO - Location sent
+2025-03-25 13:23:11,675 - ERROR - Error sending location: list index out of range
+2025-03-25 13:23:12,731 - INFO - Received: Give me your location
+2025-03-25 13:23:12,763 - INFO - Location sent
+2025-03-25 13:23:13,891 - INFO - Received: Give me your location
+2025-03-25 13:23:13,923 - INFO - Location sent
+2025-03-25 13:23:15,051 - INFO - Received: Give me your location
+2025-03-25 13:23:15,163 - INFO - Location sent
+2025-03-25 13:23:16,363 - INFO - Location update interval changed to 1m
+2025-03-25 13:23:16,403 - INFO - Received: Give me your location
+2025-03-25 13:23:16,435 - INFO - Location sent
+2025-03-25 13:23:17,555 - INFO - Received: Give me your location
+2025-03-25 13:23:17,627 - INFO - Location sent
+2025-03-25 13:23:18,747 - INFO - Received: Give me your location
+2025-03-25 13:23:18,818 - INFO - Location sent
+2025-03-25 13:23:20,011 - INFO - Received: Give me your location
+2025-03-25 13:23:20,091 - INFO - Location sent
+2025-03-25 13:23:21,259 - INFO - Received: Give me your location
+2025-03-25 13:23:21,339 - INFO - Location sent
+2025-03-25 13:23:22,475 - INFO - Received: Give me your location
+2025-03-25 13:23:22,507 - INFO - Location sent
+2025-03-25 13:23:23,675 - INFO - Received: Give me your location
+2025-03-25 13:23:23,707 - INFO - Location sent
+2025-03-25 13:23:24,986 - INFO - Received: Give me your location
+2025-03-25 13:23:25,018 - INFO - Location sent
+2025-03-25 13:23:26,330 - INFO - Received: Give me your location
+2025-03-25 13:23:26,354 - INFO - Location sent
+2025-03-25 13:23:27,778 - INFO - Received: Give me your location
+2025-03-25 13:23:27,802 - INFO - Location sent
+2025-03-25 13:23:29,306 - INFO - Received: Give me your location
+2025-03-25 13:23:29,330 - INFO - Location sent
+2025-03-25 13:23:30,779 - INFO - Received: Give me your location
+2025-03-25 13:23:30,803 - INFO - Location sent
+2025-03-25 13:23:32,579 - INFO - Received: Give me your location
+2025-03-25 13:23:32,611 - INFO - Location sent
+2025-03-25 13:23:34,435 - INFO - Received: Give me your location
+2025-03-25 13:23:34,467 - INFO - Location sent
+2025-03-25 13:23:36,403 - INFO - Received: Give me your location
+2025-03-25 13:23:36,435 - INFO - Location sent
+2025-03-25 13:23:38,915 - INFO - Received: Give me your location
+2025-03-25 13:23:38,955 - INFO - Location sent
+2025-03-25 13:23:41,314 - INFO - Received: Give me your location
+2025-03-25 13:23:41,346 - INFO - Location sent
+2025-03-25 13:23:43,578 - INFO - Received: Give me your location
+2025-03-25 13:23:43,602 - INFO - Location sent
+2025-03-25 13:23:46,050 - INFO - Received: Give me your location
+2025-03-25 13:23:46,130 - INFO - Location sent
+2025-03-25 13:23:48,434 - INFO - Received: Give me your location
+2025-03-25 13:23:48,466 - INFO - Location sent
+2025-03-25 13:23:51,146 - INFO - Received: Give me your location
+2025-03-25 13:23:51,178 - INFO - Location sent
+2025-03-25 13:23:54,058 - INFO - Received: Give me your location
+2025-03-25 13:23:54,082 - INFO - Location sent
+2025-03-25 13:23:56,970 - INFO - Received: Give me your location
+2025-03-25 13:23:57,002 - INFO - Location sent
+2025-03-25 13:24:00,073 - INFO - Received: Give me your location
+2025-03-25 13:24:00,105 - INFO - Location sent
+2025-03-25 13:24:03,177 - ERROR - Connection error: Connection lost
+2025-03-25 13:24:06,601 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:24:10,217 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:24:13,648 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:24:20,712 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:24:27,747 - ERROR - Connection failed: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-03-25 13:27:19,984 - INFO - Cryptography initialized successfully
+2025-03-25 13:27:19,992 - INFO - Connected to server
+2025-03-25 13:27:20,008 - INFO - Received: Challenge: 4 73
+2025-03-25 13:27:20,016 - INFO - Challenge response sent
+2025-03-25 13:27:20,056 - INFO - Received: Authentication SuccessfulGive me your location
+2025-03-25 13:27:30,063 - ERROR - Connection error: timed out
+2025-03-25 13:27:30,143 - INFO - Location update interval changed to 30s
+2025-03-25 13:27:34,996 - INFO - Connected to server
+2025-03-25 13:27:35,068 - INFO - Received: Challenge: 7 8
+2025-03-25 13:27:35,076 - INFO - Challenge response sent
+2025-03-25 13:27:35,116 - INFO - Received: Authentication Successful
+2025-03-25 13:27:35,188 - INFO - Authentication successful
+2025-03-25 13:27:35,196 - INFO - Received: Give me your location
+2025-03-25 13:27:35,228 - INFO - Location sent
+2025-03-25 13:27:36,379 - INFO - Received: Give me your location
+2025-03-25 13:27:36,459 - INFO - Location sent
+2025-03-25 13:27:37,666 - INFO - Received: Give me your location
+2025-03-25 13:27:37,834 - INFO - Location sent
+2025-03-25 13:27:37,946 - ERROR - Error sending location: list index out of range
+2025-03-25 13:27:38,985 - INFO - Received: Give me your location
+2025-03-25 13:27:39,057 - INFO - Location sent
+2025-03-25 13:27:40,196 - INFO - Received: Give me your location
+2025-03-25 13:27:40,276 - INFO - Location sent
+2025-03-25 13:27:41,434 - INFO - Received: Give me your location
+2025-03-25 13:27:41,514 - INFO - Location sent
+2025-03-25 13:27:42,676 - INFO - Received: Give me your location
+2025-03-25 13:27:42,732 - INFO - Location sent
+2025-03-25 13:27:44,054 - INFO - Received: Give me your location
+2025-03-25 13:27:44,118 - INFO - Location sent
+2025-03-25 13:27:45,274 - INFO - Received: Give me your location
+2025-03-25 13:27:45,338 - INFO - Location sent
+2025-03-25 13:27:46,485 - INFO - Received: Give me your location
+2025-03-25 13:27:46,565 - INFO - Location sent

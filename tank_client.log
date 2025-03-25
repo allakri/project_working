@@ -1,0 +1,19 @@
+2025-03-24 00:27:24,386 - ERROR - Failed to initialize cryptography: [Errno 2] No such file or directory: 'sequence.csv'
+2025-03-24 00:30:57,542 - INFO - Cryptography initialized successfully
+2025-03-24 00:58:48,102 - INFO - Cryptography initialized successfully
+2025-03-24 01:20:06,308 - INFO - Cryptography initialized successfully
+2025-03-24 02:29:53,735 - INFO - Cryptography initialized successfully
+2025-03-24 09:00:54,557 - INFO - Cryptography initialized successfully
+2025-03-24 09:01:33,162 - INFO - Cryptography initialized successfully
+2025-03-24 09:15:42,099 - INFO - Cryptography initialized successfully
+2025-03-24 11:44:11,352 - INFO - Updated encryption sequence: rsa -> aes -> des -> aes-gcm
+2025-03-24 11:44:11,353 - INFO - Cryptography initialized successfully
+2025-03-24 11:44:12,447 - ERROR - Error receiving message: main thread is not in main loop
+2025-03-24 11:47:53,992 - INFO - Updated encryption sequence: rsa -> aes-gcm -> des -> ecc
+2025-03-24 11:47:53,993 - INFO - Cryptography initialized successfully
+2025-03-24 11:47:55,092 - ERROR - Error receiving message: main thread is not in main loop
+2025-03-24 12:03:39,193 - INFO - Updated encryption sequence: rsa -> des -> aes -> aes-gcm
+2025-03-24 12:03:39,194 - INFO - Cryptography initialized successfully
+2025-03-24 12:04:43,731 - INFO - Updated encryption sequence: rsa -> aes -> aes-gcm -> tdes
+2025-03-24 12:04:43,732 - INFO - Cryptography initialized successfully
+2025-03-24 12:04:50,406 - INFO - Updated encryption sequence: rsa -> aes -> des -> aes-gcm -> tdes
