@@ -50,6 +50,7 @@ class TankClientGUI:
         self.reconnect_delay = 5  # seconds
         self.authenticated = False
         self.connection_lock = threading.Lock()
+        self.manual_send_button = None
 
         # Create main frames
         self.create_frames()
@@ -61,9 +62,6 @@ class TankClientGUI:
 
         # Start connection attempt
         self.attempt_connection()
-
-        # Set up connection monitoring
-        self.setup_connection_monitor()
 
         # Bind window close event
         self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
@@ -86,21 +84,19 @@ class TankClientGUI:
             self.connected = False
             self.authenticated = False
 
-    def setup_connection_monitor(self):
-        """Setup periodic connection monitoring"""
-        def check_connection():
-            if not self.connected or (self.connected and not self.authenticated):
-                self.attempt_connection()
-            self.root.after(5000, check_connection)
-        check_connection()
-
     def attempt_connection(self):
         """Attempt to connect to server"""
         with self.connection_lock:
-            if self.connected:
+            if self.connected and self.authenticated:
                 return
 
             try:
+                if self.client_socket:
+                    try:
+                        self.client_socket.close()
+                    except:
+                        pass
+                
                 self.client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                 self.client_socket.settimeout(10)  # 10 second timeout
                 self.client_socket.connect(("localhost", 12345))
@@ -124,6 +120,11 @@ class TankClientGUI:
                         pass
                     self.client_socket = None
 
+                # Try to reconnect
+                if self.reconnect_attempts < self.max_reconnect_attempts:
+                    self.reconnect_attempts += 1
+                    self.root.after(self.reconnect_delay * 1000, self.attempt_connection)
+
     def handle_server_messages(self):
         """Handle incoming server messages"""
         while self.connected:
@@ -137,9 +138,13 @@ class TankClientGUI:
                 if message.startswith("Challenge:"):
                     self.handle_challenge(message)
                 elif message == "Authentication Successful":
-                    self.authenticated = True
-                    self.log("Authentication successful")
-                    self.reconnect_attempts = 0
+                    if not self.authenticated:
+                        self.authenticated = True
+                        self.log("Authentication successful")
+                        self.reconnect_attempts = 0
+                        # Start location timer if auto-send is enabled
+                        if self.auto_send_location:
+                            self.restart_location_timer()
                 elif message == "Are you ready?":
                     self.client_socket.send("yes".encode())
                 elif message == "Give me your location":
@@ -210,7 +215,7 @@ class TankClientGUI:
 
             # Encrypt location
             ivs, encrypted_data, tags = encrypt_data(
-                location,
+                location,  # Only encrypt the location coordinates
                 self.methods,
                 self.key_aes,
                 self.key_des,
@@ -253,9 +258,13 @@ class TankClientGUI:
         try:
             with open("tank_locations.csv", "r") as file:
                 reader = csv.reader(file)
-                locations = [row[1] for row in reader if row[0] == self.username]
-                if locations:
-                    return random.choice(locations)
+                next(reader)  # Skip header
+                for row in reader:
+                    if row[0] == self.username:
+                        locations = [loc.strip() for loc in row[1:] if loc.strip()]
+                        if locations:
+                            return random.choice(locations)
+                        break
         except FileNotFoundError:
             self.log("Location file not found", "ERROR")
         return None
@@ -321,15 +330,15 @@ class TankClientGUI:
 
         self.timer_var = tk.StringVar(value="5s")
         timer_options = [
-            ("5 seconds", "5s"),
-            ("30 seconds", "30s"),
-            ("1 minute", "1m"),
-            ("10 minutes", "10m"),
-            ("30 minutes", "30m"),
-            ("1 hour", "1h")
+            ("5 seconds", "5s", 5),
+            ("30 seconds", "30s", 30),
+            ("1 minute", "1m", 60),
+            ("10 minutes", "10m", 600),
+            ("30 minutes", "30m", 1800),
+            ("1 hour", "1h", 3600)
         ]
 
-        for text, value in timer_options:
+        for text, value, _ in timer_options:
             ttk.Radiobutton(timer_frame, text=text, value=value, 
                           variable=self.timer_var, 
                           command=self.update_timer).pack(anchor="w")
@@ -339,6 +348,15 @@ class TankClientGUI:
         ttk.Checkbutton(timer_frame, text="Auto-send Location", 
                        variable=self.auto_send_var,
                        command=self.toggle_auto_send).pack(pady=5)
+
+        # Manual send button (initially hidden)
+        self.manual_send_button = ttk.Button(
+            timer_frame,
+            text="Send Location",
+            command=self.send_location,
+            state="disabled"
+        )
+        self.manual_send_button.pack(pady=5)
 
         # Log Section
         log_frame = ttk.LabelFrame(self.right_frame, text="Client Logs", padding=10)
@@ -352,9 +370,13 @@ class TankClientGUI:
         """Toggle automatic location sending"""
         self.auto_send_location = self.auto_send_var.get()
         if self.auto_send_location:
+            self.manual_send_button.configure(state="disabled")
             self.restart_location_timer()
-        elif self.location_timer:
-            self.location_timer.cancel()
+        else:
+            self.manual_send_button.configure(state="normal")
+            if self.location_timer:
+                self.location_timer.cancel()
+                self.location_timer = None
 
     def update_timer(self):
         """Update the location sending interval"""
@@ -370,13 +392,15 @@ class TankClientGUI:
         new_interval = intervals.get(self.timer_var.get())
         if new_interval != self.current_interval:
             self.current_interval = new_interval
-            self.restart_location_timer()
+            if self.auto_send_location:
+                self.restart_location_timer()
             self.log(f"Location update interval changed to {self.timer_var.get()}")
 
     def restart_location_timer(self):
         """Restart the location sending timer"""
         if self.location_timer:
             self.location_timer.cancel()
+            self.location_timer = None
         
         if self.current_interval and self.connected and self.authenticated and self.auto_send_location:
             self.location_timer = threading.Timer(self.current_interval, self.send_location_loop)
